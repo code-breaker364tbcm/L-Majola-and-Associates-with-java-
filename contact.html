@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header><img src="_IMAGES/logo.webp"alt="logo of L Majola and Associates">
+            <h6>L Majola and Associates (Pty) Ltd</h6>
+            <nav id="toplinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li>Contact</li>
+                    <li><a href="resource.html">Resources</a></li>
+                </ul>
+            </nav>            
+        </header>
+
+        <main>
+      
+           
+           <section id="contact">
+             <h1>Contact Us</h1>
+
+             <p>
+                Get in touch with L Majola & Associates and let us help support
+                your business journey.
+             </p>
+
+             <h2>Get In Touch</h2>
+
+             <p>
+                Whether you need assistance with accounting, taxation, financial
+                management, human resources or business consulting, our team is
+                ready to assist you.
+             </p>
+
+             <h2>Contact Information</h2>
+
+             <p>
+             <strong>Company:</strong>
+             L Majola & Associates (Pty) Ltd
+             </p>
+
+             <p>
+             <strong>Email:</strong>
+             info@lmajola.co.za
+             </p>
+
+             <p>
+             <strong>Phone:</strong>
+             +27-11-553-7018 or 0798278229
+             </p>
+
+             <p>
+             <strong>Business Hours:</strong><br>
+             Monday – Friday<br>
+             08:00 – 17:00
+             </p>
+
+             <h2>Send Us a Message</h2>
+
+             <form>
+             <label for="name">Full Name</label><br>
+             <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+             ><br><br>
+
+             <label for="email">Email Address</label><br>
+             <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+             ><br><br>
+
+             <label for="subject">Subject</label><br>
+             <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is your enquiry about?"
+             ><br><br>
+
+             <label for="message">Message</label><br>
+             <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                required
+             ></textarea><br><br>
+
+             <button type="submit">Send Message</button>
+             </form>
+           </section>
+           <br class="clearFix">          
+        </main>
+
+        <footer>
+            <nav id="bottomlinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li class="currentPage">Contact</li>
+                    <li><a href="resource.html">Resources</a></li>
+                </ul>
+            </nav>
+            <p>
+                &copy; <span id="year"></span>
+                L Majola & Associates (Pty) Ltd.
+                All rights reserved.
+            </p>
+        </footer>
+    </div>
+    <button id="backToTop" type="button" hidden>
+        Back to Top ↑
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
